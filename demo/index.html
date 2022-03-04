@@ -9,21 +9,10 @@
   </style>
 </head>
 <body>
-  <div id="demo"></div>
+  <div id="demo">
+    <lit-demo></lit-demo>
+  </div>
 
-  <script type="module">
-    import { html, render } from 'lit';
-    import '../lit-demo.js';
-
-    const title = 'Hello owc World!';
-    render(
-      html`
-        <lit-demo .title=${title}>
-          some light-dom
-        </lit-demo>
-      `,
-      document.querySelector('#demo')
-    );
-  </script>
+  <script src="../lit-demo.js" type="module"></script>
 </body>
 </html>
