@@ -7,16 +7,18 @@ export class Square extends LitElement {
 
   static styles = css`
     button {
-      background-color: #4caf50; /* Green */
-      border: black;
-      border-style: solid;
-      border-width: 2px;
-      color: white;
-      padding: 10px 15px;
+      background: #fff;
+      border: 1px solid #999;
+      float: left;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 34px;
+      height: 34px;
+      margin-right: -1px;
+      margin-top: -1px;
+      padding: 0;
       text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 15px;
+      width: 34px;
     }
   `;
 
