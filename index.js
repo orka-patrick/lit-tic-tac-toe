@@ -1,1 +1,1 @@
-export { LitDemo } from './src/LitDemo.js';
+export { LitDemo } from './src/LitDemo.js'

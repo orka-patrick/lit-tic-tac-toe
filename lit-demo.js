@@ -1,3 +1,3 @@
-import { LitDemo } from './src/LitDemo.js';
+import { LitDemo } from './src/LitDemo.js'
 
-window.customElements.define('lit-demo', LitDemo);
+window.customElements.define('lit-demo', LitDemo)
